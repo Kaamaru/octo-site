@@ -1,3 +1,6 @@
+#nah bro dont listen to yaps
+just run stuff in /deploy
+
 # Development
 
 Your new bare-bones project includes minimal organization with a single `main.rs` file and a few assets.
