@@ -1,0 +1,13 @@
+services:
+  - type: static
+    name: octo-site
+    env: static
+    buildCommand: |
+      cargo install dioxus-cli --locked
+      export PATH="/opt/render/project/.cargo/bin:$PATH"
+      dx build --release
+    staticPublishPath: dist
+    routes:
+      - type: rewrite
+        source: /
+        destination: /index.html
