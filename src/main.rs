@@ -93,7 +93,7 @@ fn App() -> Element {
                         width: "340",
                         height: "192",
                         frame_border: "0",
-                        src: "https://widgets.vendicated.dev/user?id=1143217634263965777&theme=dark&banner=true&full-banner=true&rounded-corners=true&discord-icon=true&badges=true&guess-nitro=false&",
+                        src: "https://widgets.vendicated.dev/user?id=1143217634263965777&theme=dark&banner=false&full-banner=false&rounded-corners=true&discord-icon=true&badges=true&guess-nitro=false&foreground-color=%2370f"
                     }
                 }
             }
